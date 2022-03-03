@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Eng = ['one', 'two', 'three'];
+    let Vn = [1, 2, 3];
+    let Ip = prompt('nhap tu ' + Eng);
+    let Kq = 'khong co trong tu dien';
+    for (let i = 0; i < Eng.length; i++) {
+        if (Ip == Eng[i]) {
+            Kq = 'tu ' + ' ' + Eng[i] + ' ' + 'co nghia la ' + Vn[i]
+        }
+    }
+    alert(Kq)
+</script>
+</body>
+</html>
